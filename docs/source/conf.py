@@ -70,3 +70,10 @@ exclude_patterns = []
 html_static_path = ["_static"]
 
 intersphinx_mapping = {"python": ("http://docs.python.org/3", None)}
+
+html_css_files = [
+    'qabot.css'
+]
+html_js_files = [
+    'https://jina-docqa-ui.netlify.app/dist/qabot.js'
+]

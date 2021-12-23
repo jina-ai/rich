@@ -1,0 +1,6 @@
+qa-bot {
+  --qabot-color-action: #2980b9;
+}
+qa-bot:not(:defined) {
+  display: none;
+}

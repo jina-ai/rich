@@ -1,0 +1,11 @@
+{% extends "!layout.html" %}
+{% block document %} 
+{{ super() }}
+<qa-bot style="position: fixed; right: 2rem;" theme="light" target="_blank">
+    <dt>You can ask questions about our docs. Try:</dt>
+    <dd>What is Rich?</dd>
+    <dd>How do I use Rich?</dd>
+    <dd>What are the basic concepts in Rich?</dd>
+</qa-bot>
+
+{% endblock %}
